@@ -1,0 +1,80 @@
+/*#Box{
+
+    background-color: red;
+}
+.heading{
+    color: blue;
+}
+button{
+    background-color: red;
+    font-weight: 400;
+}
+p{
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Times New Roman';
+  
+}
+h3{
+    text-decoration: red underline;
+    font-weight: 900;
+
+}
+div{
+    background-color: lightpink;
+    border-width: 5px;
+    border-style: dotted;
+    border-radius: 5px;
+    width: 100px;
+    height: 100px;
+    padding-left: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+}*/
+*{
+    color: white;
+}
+#navbar{
+   background-color: #0f1111;
+   height: 60px;
+}
+button{
+    background-color: #f08804;
+}
+#logo{
+    color: #f08804;
+    font-size: 50px;
+}
+a{
+    margin-right: 200px;
+    text-decoration: none;
+}
+.contentbox{
+height: 100px;
+width: 100px;
+border: 2px solid black;
+display: inline-block;
+
+}
+@keyframes moving {
+    from{ left: 0px;}
+    to{ right: 100px;}  
+}
+.contentbox:hover{
+     animation: moving;
+animation-duration: 1s;
+animation-delay: 0s;
+animation-iteration-count: infinite;
+animation-direction: normal;
+}
+footer{
+  
+    background-color: black;
+    text-align: center;
+}
+#content{
+    height: 500px;
+    top: 100px;
+}
+
